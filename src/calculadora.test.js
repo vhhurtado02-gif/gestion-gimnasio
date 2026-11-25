@@ -13,17 +13,17 @@ describe('Suscripción de gimnasio - calcularTotalSuscripcion', () => {
   });
 
   test('Normal 2: 6 meses a $80.000 aplica 6% (tasaEquipo) y cobra $451.200', () => {
-    // Arrange
+    // Arrange  Preparar
     const meses = 6;
     const tarifa = 80000; // subtotal 480.000 - 6% (28.800)
-    // Act
+    // Act  Actuar
     const resultado = calcularTotalSuscripcion(meses, tarifa);
-    // Assert
+    // Assert  Verificar
     expect(resultado).toBe(451200);
   });
 
   test('Normal 3: 12 meses a $100.000 aplica 6% (tasaEquipo) y cobra $1.128.000', () => {
-    // Arrange
+    // Arrange  
     const meses = 12;
     const tarifa = 100000; // subtotal 1.200.000 - 6% (72.000)
     // Act
