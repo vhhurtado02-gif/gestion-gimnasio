@@ -1,0 +1,14 @@
+{
+  "name": "gestion-gimnasio",
+  "version": "1.0.0",
+  "description": "Cálculo de suscripción de gimnasio con pruebas unitarias en Jest",
+  "main": "src/calculadora.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Víctor Hugo Hurtado Morales",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
